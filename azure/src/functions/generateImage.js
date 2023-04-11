@@ -34,6 +34,7 @@ app.http("generateImage", {
       `https://${accountName}.blob.core.windows.net?${sasToken}`
     );
 
+
     const containerClient = blobServiceClient.getContainerClient(containerName);
 
     // generate current timestamp

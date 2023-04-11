@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["1000logos.net"]
+    domains: ["1000logos.net", "aiimagesgeneratora1df206.blob.core.windows.net"]
   }
 }
 
